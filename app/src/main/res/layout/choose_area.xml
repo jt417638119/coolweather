@@ -3,7 +3,8 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#fff">
+    android:background="#fff"
+    android:fitsSystemWindows="true">
     
     <RelativeLayout
         android:layout_width="match_parent"
@@ -25,7 +26,7 @@
             android:layout_marginLeft="10dp"
             android:layout_alignParentLeft="true"
             android:layout_centerVertical="true"
-            android:text="返回"
+            android:background="@drawable/back"
 
             />
     </RelativeLayout>
